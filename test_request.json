@@ -1,0 +1,8 @@
+{
+    "bytes_sent": 50000,
+    "bytes_received": 20000,
+    "src_port": 443,
+    "dest_port": 8080,
+    "protocol": 6,
+    "threat_score": 85
+}

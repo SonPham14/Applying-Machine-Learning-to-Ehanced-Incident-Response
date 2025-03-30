@@ -1,0 +1,46 @@
+2025-03-02 11:30:02,268 - WARNING -  * Debugger is active!
+2025-03-02 11:30:02,281 - INFO -  * Debugger PIN: 964-589-994
+2025-03-02 17:10:26,742 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-02 17:10:26,742 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-02 17:10:46,566 - ERROR - Unauthorized access attempt
+2025-03-02 17:10:46,567 - INFO - 127.0.0.1 - - [02/Mar/2025 17:10:46] "[31m[1mPOST /predict HTTP/1.1[0m" 401 -
+2025-03-02 17:16:45,012 - ERROR - Unauthorized access attempt
+2025-03-02 17:16:45,013 - INFO - 127.0.0.1 - - [02/Mar/2025 17:16:45] "[31m[1mPOST /predict HTTP/1.1[0m" 401 -
+2025-03-02 17:20:41,723 - ERROR - Unauthorized access attempt
+2025-03-02 17:20:41,725 - INFO - 127.0.0.1 - - [02/Mar/2025 17:20:41] "[31m[1mPOST /predict HTTP/1.1[0m" 401 -
+2025-03-02 17:20:45,932 - INFO - 127.0.0.1 - - [02/Mar/2025 17:20:45] "GET / HTTP/1.1" 200 -
+2025-03-02 17:20:50,821 - ERROR - Unauthorized access attempt
+2025-03-02 17:20:50,822 - INFO - 127.0.0.1 - - [02/Mar/2025 17:20:50] "[31m[1mPOST /predict HTTP/1.1[0m" 401 -
+2025-03-02 17:21:29,434 - INFO - Received prediction request
+2025-03-02 17:21:29,440 - ERROR - Error during prediction: X has 4 features, but StandardScaler is expecting 2 features as input.
+2025-03-02 17:21:29,440 - INFO - 127.0.0.1 - - [02/Mar/2025 17:21:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-02 17:22:52,971 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-02 17:22:52,971 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-02 17:22:52,972 - INFO -  * Restarting with stat
+2025-03-02 17:22:53,931 - WARNING -  * Debugger is active!
+2025-03-02 17:22:53,942 - INFO -  * Debugger PIN: 964-589-994
+2025-03-02 17:23:01,321 - INFO - 127.0.0.1 - - [02/Mar/2025 17:23:01] "GET / HTTP/1.1" 200 -
+2025-03-02 17:23:05,068 - INFO - Received prediction request
+2025-03-02 17:23:05,069 - INFO - 127.0.0.1 - - [02/Mar/2025 17:23:05] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-03-02 17:23:36,717 - INFO -  * Detected change in '/Users/mac/Downloads/machinelearning/myenv/machinelearning-project/app.py', reloading
+2025-03-02 17:23:36,913 - INFO -  * Restarting with stat
+2025-03-02 17:23:38,302 - WARNING -  * Debugger is active!
+2025-03-02 17:23:38,311 - INFO -  * Debugger PIN: 964-589-994
+2025-03-02 17:23:56,566 - INFO -  * Detected change in '/Users/mac/Downloads/machinelearning/myenv/machinelearning-project/app.py', reloading
+2025-03-02 17:23:56,711 - INFO -  * Restarting with stat
+2025-03-02 17:24:01,384 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-02 17:24:01,384 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-02 17:25:11,656 - ERROR - Unauthorized access attempt
+2025-03-02 17:25:11,663 - INFO - 127.0.0.1 - - [02/Mar/2025 17:25:11] "[31m[1mPOST /predict HTTP/1.1[0m" 401 -
+2025-03-02 17:25:45,078 - INFO - Received prediction request
+2025-03-02 17:25:45,094 - INFO - Prediction: 0
+2025-03-02 17:25:45,097 - INFO - 127.0.0.1 - - [02/Mar/2025 17:25:45] "POST /predict HTTP/1.1" 200 -
+2025-03-02 17:27:02,717 - INFO - Received prediction request
+2025-03-02 17:27:02,724 - INFO - Prediction: 0
+2025-03-02 17:27:02,725 - INFO - 127.0.0.1 - - [02/Mar/2025 17:27:02] "POST /predict HTTP/1.1" 200 -
+2025-03-02 17:27:14,831 - INFO - Received prediction request
+2025-03-02 17:27:14,837 - INFO - Prediction: 0
+2025-03-02 17:27:14,837 - INFO - 127.0.0.1 - - [02/Mar/2025 17:27:14] "POST /predict HTTP/1.1" 200 -
