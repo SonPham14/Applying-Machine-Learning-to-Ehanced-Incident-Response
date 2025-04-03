@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Machine Learning Predictor</title>
+</head>
+<body>
+    <h1>Nhập dữ liệu để dự đoán</h1>
+    <form action="/predict" method="post">
+        <label for="feature1">Feature 1:</label>
+        <input type="text" id="feature1" name="feature1"><br><br>
+        <label for="feature2">Feature 2:</label>
+        <input type="text" id="feature2" name="feature2"><br><br>
+        <input type="submit" value="Dự đoán">
+    </form>
+    <h2>Kết quả: {{ prediction }}</h2>
+</body>
+</html>
